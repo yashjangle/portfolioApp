@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blogs</title>
+    <link rel="stylesheet" href="blogs.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h2><a style="text-decoration: none; color: #555" href="portfolio.html">YASHCODES</a></h2>
+            <ul class="list">
+                <li><a class="nav-link" href="portfolio.html">Home</a></li>
+                <li><a class="nav-link" href="projects.html">Projects</a></li>
+                <li><a class="nav-link" href="blogs.html">Blogs</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main-1">
+        <div class="blog-btm">
+            <h1>1. A small blog on Let, Const and Var.</h1>
+
+            <p>
+                <strong>Let , Const, and Var</strong> are three ways of declaring the
+                variables in Javascript. All are similar except for a few differences. I
+                will talk about some simple differences below and will tell which is
+                more advisable to use.
+                <br />
+
+                <strong> Let</strong> - Let was introduced in ES6. It's almost similar
+                to Var. It is a modern way of declaring variables the values of which
+                are not fixed—and are likely to change in the future. In other words, we
+                use let for mutating the variables. In Let, hosting is allowed. Let is a block scope. That means, the
+                variable decalraed can be accesssed only within the block ('{}') in which it is declared and within the
+                block of its parent element.<br />
+                <strong> Const</strong> - Const was also introduced in ES6 along with
+                Let. It is also a modern way of declaring the variables. It's used to
+                declare variables the values of which are likely to remain fixed in the
+                future. For eg, Birthyear. We use const when we are sure that values
+                won't change once declared. In Const, hosting is not allowed. Const is also a block scope. <br />
+                <strong>Var</strong> - Var is old way of declaring variables. That is,
+                prior to ES6, before const and var was introduced. It's pretty similar
+                to Let. In Var, hosting is allowed. Unlike Let and Const, Var is a function scope. That means, the
+                variable declared with var can be acsessed anywhere within the function in which it is declared. <br />
+            </p>
+            <p>
+                <strong>Conclusion</strong> - As a best practice, always use const. And if
+                you are sure that the value of a variable is going to change in the future
+                then use Let. It is a good practice to use as little variable mutations as possible
+                because changing variable creates more potential for bugs in the
+                code.
+            </p>
+        </div>
+
+    </div>
+    <footer>
+        <h2>You can connect me here.</h2>
+        <div class="social-icons">
+            <div class="social-icon--btn">
+                <div class="social-icon"><a href="https://twitter.com/yashJangle2">
+                        <ion-icon name="logo-twitter"></ion-icon></a>
+                </div>
+                <span class="social-icon--text"><a href="https://twitter.com/yashJangle2">Twitter</a></span>
+            </div>
+            <div class="social-icon--btn">
+                <div class="social-icon"><a href="https://www.linkedin.com/in/yash Jangle/">
+                        <ion-icon name="logo-linkedin"></ion-icon></a></div>
+                <span class="social-icon--text"><a href="https://linkedin.com/yash Jangle">
+                        LinkedIn</a></span>
+            </div>
+            <div class="social-icon--btn">
+                <div class="social-icon"><a href="https://instagram.com/yashjangle">
+                        <ion-icon name="logo-instagram"></ion-icon></a></div>
+                <span class="social-icon--text"><a href="https://instagram.com/yashjangle">
+                        Instagram</a></span>
+            </div>
+            <div class="social-icon--btn">
+                <div class="social-icon"><a href="https://github.com/yashjangle">
+                        <ion-icon name="logo-github"></ion-icon></a></div>
+                <span class="social-icon--text"><a href="https://github.com/yashjangle">
+                        Github</a></span>
+            </div>
+        </div>
+
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</body>
+
+</html>
